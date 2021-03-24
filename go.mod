@@ -13,6 +13,7 @@ require (
 	github.com/ethereum/go-ethereum v1.9.25
 	github.com/fxamacker/cbor/v2 v2.2.0
 	github.com/gballet/go-libpcsclite v0.0.0-20191108122812-4678299bea08 // indirect
+	github.com/go-delve/delve v1.6.0 // indirect
 	github.com/go-ole/go-ole v1.2.5 // indirect
 	github.com/golang/protobuf v1.4.3 // indirect
 	github.com/google/uuid v1.2.0

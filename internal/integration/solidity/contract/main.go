@@ -47,11 +47,20 @@ func main() {
 	}
 
 	{
-		f, err := os.Create("contract.sol")
+		// f, err := os.Create("contract.sol")
+		// if err != nil {
+		// 	panic(err)
+		// }
+		// err = vk.ExportSolidity(f)
+		// if err != nil {
+		// 	panic(err)
+		// }
+
+		f, err := os.Create("contract.cpp")
 		if err != nil {
 			panic(err)
 		}
-		err = vk.ExportSolidity(f)
+		err = vk.ExportWasm(f)
 		if err != nil {
 			panic(err)
 		}
