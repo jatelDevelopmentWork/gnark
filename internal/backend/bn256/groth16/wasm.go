@@ -79,7 +79,7 @@ private:
 			y12[i] = p2[i].Y[1].Values();
 		}
 
-		return bn256_pairing(x1, y1, x11, x12, y11, y12, len);
+		return 0 == bn256_pairing(x1, y1, x11, x12, y11, y12, len);
 	}
 
 private:
